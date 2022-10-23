@@ -7,6 +7,26 @@
     background-color: #e2cce1;
     font-family: Arial, Helvetica, sans-serif
   }
+  nav{
+    display: flex;
+    margin-bottom: 20px;
+  }
+  a{
+    color: black;
+    background-color: #c789a6;
+    border: 2px solid #2d2c2a;
+    border-radius: 10px 10px 0 0;
+    padding: 10px;
+    padding-left: 4%;
+    padding-right: 4%;
+    justify-content:flex-start;
+    text-decoration: none;
+  }
+  nav :hover{
+    color: #c789a6;
+    background-color: #2d2c2a;
+    border: 2px solid #c789a6;
+  }
   ul{
     list-style: none;
   }
@@ -14,8 +34,7 @@
     padding: 12px 0;
     text-align: center;
   }
-  header,
-  section {
+  header, section {
     max-width:450px;
     margin: 0 auto;
   }
@@ -28,7 +47,7 @@
   header h1 span {
      color: #c789a6;
   }
-  header > p{
+  header > h2{
     font-size: 18px;
     line-height: 16px;
     color: rgba(0, 0, 0, 0.7);
