@@ -5,26 +5,29 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
 
   <title>Delícias Brownies</title>
 </head>
 
 <body>
   <main>
-    <header>
+    <header class="header">
       <h1>Delícias <span>Brownies</span></h1>
       <h2>Cardápio</h2>
       <nav id="Cardapio">
-        <a href="#brownies">Brownies</a>
-        <a href="#bolos">Bolos</a>
-        <a href="#doces">Doces</a>
+        <a href="#">Brownies</a>
+        <a href="#">Bolos</a>
+        <a href="#">Doces</a>
       </nav>
     </header>
-    <section id="brownies">
+    <section class="secao abas mostrar">
       <div class="title">
         <h2>Brownies</h2>
       </div>
@@ -82,7 +85,7 @@
       </ul>
     </section>
 
-    <section id="bolos">
+    <section class="secao abas">
       <div class="title">
         <h2>Bolos</h2>
       </div>
@@ -195,7 +198,7 @@
       </ul>
     </section>
 
-    <section id="doces">
+    <section class="secao abas">
       <div class="title">
         <h2>Doces</h2>
       </div>
@@ -203,7 +206,8 @@
         <li>
           <div class="detalhes">
             <h3>Cone trufado</h3>
-            <p class="descricao"> Cone banhado ao chocolate com recheio (ninho, brigadeiro, dois amores, oreo, ninho com nutella, ninho com morango)
+            <p class="descricao"> Cone banhado ao chocolate com recheio (ninho, brigadeiro, dois amores, oreo, ninho com
+              nutella, ninho com morango)
             </p>
           </div>
           <strong class="preco">
@@ -223,7 +227,8 @@
         <li>
           <div class="detalhes">
             <h3>Copo da felicidade</h3>
-            <p class="descricao"> Copo de 250ml Duas camadas de recheio de ninho, uma camada de brownie, uma camada de morangos picados e brigadeiro e morangos em cima. 
+            <p class="descricao"> Copo de 250ml Duas camadas de recheio de ninho, uma camada de brownie, uma camada de
+              morangos picados e brigadeiro e morangos em cima.
             </p>
           </div>
           <strong class="preco">
@@ -243,7 +248,8 @@
         <li>
           <div class="detalhes">
             <h3>Trufa</h3>
-            <p class="descricao"> Chocolate meio amargo com recheio: (ninho, brigadeiro, dois amores, oreo, ninho com nutella, ninho com morango, limão)
+            <p class="descricao"> Chocolate meio amargo com recheio: (ninho, brigadeiro, dois amores, oreo, ninho com
+              nutella, ninho com morango, limão)
             </p>
           </div>
           <strong class="preco">
@@ -293,7 +299,8 @@
         <li>
           <div class="detalhes">
             <h3>Tortinha doce</h3>
-            <p class="descricao"> Massa crocante de empada com recheio (ninho, brigadeiro, dois amores, oreo, ninho com nutella, ninho com morango)
+            <p class="descricao"> Massa crocante de empada com recheio (ninho, brigadeiro, dois amores, oreo, ninho com
+              nutella, ninho com morango)
             </p>
           </div>
           <strong class="preco">
@@ -323,6 +330,9 @@
       </ul>
     </section>
   </main>
+
+  <script src="./js/index.js"></script>
+
 </body>
 
 </html>
