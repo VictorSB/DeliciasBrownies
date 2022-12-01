@@ -1,21 +1,13 @@
 const abasMenu = document.querySelectorAll('a')
 const abas = document.querySelectorAll('.abas')
 
+abasMenu.forEach(function (menu, index) {
+    menu.addEventListener("click", function () {
 
-abasMenu.forEach(function () {
-    menu.addEventListener("click", function() {
-        
-        esconderCardapio()
-
+        const esconderCardapio = document.querySelector('.mostrar')
+        if (esconderCardapio) {
+            esconderCardapio.classList.remove('mostrar')
+        } 
+        abas[index].classList.add('mostrar') 
     })
 })
-
-
-
-function esconderCardapio() {
-    const cardapio = document.querySelector('.mostrar')
-    if (cardapio) {
-        cardapio.classList.remove('mostrar')
-    }
-    menu.classList.add('mostrar')
-}
