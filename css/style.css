@@ -1,59 +1,63 @@
 body {
-  background-image: linear-gradient(to bottom, pink, rgb(244, 160, 174));
+  background-image: url(../images/7302332.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
   font-family: 'Poppins', sans-serif;
   min-height: 100vh;
 }
 .logo{
   padding-top: 30px;
-  width: 100px;
+  width: 150px;
 }
 
 nav {
-  display: flex;
-  margin-bottom: 20px;
+  display: flex; 
 }
 a {
   color: #2d2c2a;
   background-color: #d98fb5;
-  border: 1px solid black;
   border-radius: 10px 10px 0 0;
   padding: 5px;
   padding-left: 4%;
   padding-right: 4%;
-  margin: 2px;
   font-weight: 700;
+  transition: background-color 0.3s ease-in-out;
 }
 nav a:hover {
   color: black;
   background-color: #db75aa;
-  border: 1px solid black;
 }
 
-.abas {
+.cardapio .menu.selecionado{
+  background-color: #db75aa;
+}
+
+.abas{
   max-width: 450px;
   margin: 0 auto 24px;
-  display: none;
+  display: none; 
 }
 .abas.mostrar{
   opacity: 1;
   display: block;
-  background-color: #2d2c2a0e;
+  background-color: rgba(255, 255, 255, 0.773);
   border-radius: 10px 10px 0 0;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.241);
   max-width: 450px;
 }
 .abas h2 {
-  background-color: #d98fb5;
+  background-color: #db75aa;
   padding: 8px 16px;
   text-align: center;
-  margin: 24px 0;
+  margin: 0 0 24px;
   font-size: 22px;
-  border-radius: 10px 10px 0 0;
-  border: 1px solid black;
+  border-radius: 0 10px 0 0;
   color: #2d2c2a;
 }
 
-.header {
+.header { 
   text-align: center;
   max-width: 450px;
   margin: 0 auto;
