@@ -15,7 +15,7 @@ body {
 nav {
   display: flex; 
 }
-a {
+.menu {
   color: #2d2c2a;
   background-color: #d98fb5;
   border-radius: 10px 10px 0 0;
@@ -113,4 +113,47 @@ h3 {
 .preco {
   width: 100px;
   text-align: right;
+}
+
+.sociais{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.social{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 50px;
+  color: #ffffff;
+  font-weight: 700;
+  box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.459);
+}
+
+.sociais p{
+  font-weight: 700;
+  font-size: 12px;
+
+}
+.sociais .whatsapp{
+  background-color: #1dd03f;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+.sociais .instagram{
+  background-image: linear-gradient(to bottom left, #ef4508, #de1641, #914bbd);
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.sociais .whatsapp:hover{
+  opacity: 0.8;
+  border: 1px solid rgba(0, 0, 0, 0.413);
+}
+.sociais .instagram:hover{
+  opacity: 0.8;
+  border: 1px solid rgba(0, 0, 0, 0.412);
 }

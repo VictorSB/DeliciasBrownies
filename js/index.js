@@ -20,10 +20,9 @@ menu.forEach(function (selecionado) {
             menuSelecionado.classList.remove('selecionado')
         }
         selecionado.classList.add('selecionado')
-
-
     })
 })
+
 
 
 
